@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Wedding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/css/wedding.css">
+    <link rel="stylesheet" href="/css/nav.css">
+</head>
+<body style="background-color: #f9f9ff;">
+   <!------------------------- Nav bar --------------------------->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mount Lavinia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/location.html">LOCATION</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/dining.html">DINNING</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/gallery.html">GALLERY</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/wedding.html">WEDDING</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/offers.html">OFFERS</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ACCOMMODATION
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">SUPEROIR ROOM</a></li>
+              <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
+              <li><a class="dropdown-item" href="#">SUITES ROOM</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!------------------------- Auto play image --------------------------->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-indicators">
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assest/image/atlantis-the-palm-5829621_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LUXURY IS PERSONAL</h5>
+        <p>SEE WHAT A DIFFERENCE A STAY MAKES.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assest/image/hotel-928937_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LUXURY IS PERSONAL</h5>
+        <p>SEE WHAT A DIFFERENCE A STAY MAKES.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assest/image/hotel-1979406_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LUXURY IS PERSONAL</h5>
+        <p>SEE WHAT A DIFFERENCE A STAY MAKES.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assest/image/relaxation-3065577_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LUXURY IS PERSONAL</h5>
+        <p>SEE WHAT A DIFFERENCE A STAY MAKES.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/assest/image/table-3084384_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LUXURY IS PERSONAL</h5>
+        <p>SEE WHAT A DIFFERENCE A STAY MAKES.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!------------------------- Booking bar --------------------------->
+
+<form class="form-search form-search-position">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 gutters-19">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Enter your keywords.." required>
+        </div>
+      </div>
+      <div class="col-lg-6 gutters-19">
+        <div class="row">
+          <div class="col-sm">
+            <div class="form-group">
+              <div class="form-select-custom">
+                <select name="" id="">
+                  <option value="" disabled selected>Arrival</option>
+                  <option value="8 AM">8 AM</option>
+                  <option value="12 PM">12 PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm gutters-19">
+            <div class="form-group">
+              <div class="form-select-custom">
+                <select name="" id="">
+                  <option value="" disabled selected>Number of room</option>
+                  <option value="8 AM">8 AM</option>
+                  <option value="12 PM">12 PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm gutters-19">
+        <div class="form-group">
+          <div class="form-select-custom">
+            <select name="" id="">
+              <option value="" disabled selected>Departure</option>
+              <option value="8 AM">8 AM</option>
+              <option value="12 PM">12 PM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm gutters-19">
+        <div class="form-group">
+          <div class="form-select-custom">
+            <select name="" id="">
+              <option value="" disabled selected>Adult</option>
+              <option value="8 AM">8 AM</option>
+              <option value="12 PM">12 PM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm gutters-19">
+        <div class="form-group">
+          <div class="form-select-custom">
+            <select name="" id="">
+              <option value="" disabled selected>Child</option>
+              <option value="8 AM">8 AM</option>
+              <option value="12 PM">12 PM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 gutters-19">
+        <div class="form-group">
+          <button class="button button-form" type="submit">Check Availability</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+    <h2 id="about">MOUNT LAVINIA - WEDDING </h2>
+  <div class="container">
+        <div class="aboutMy">
+          <p>
+            Experience unparalleled hospitality at our hotel's luxurious party venue. Whether it's a corporate event, wedding reception, or private celebration, our dedicated team ensures every detail is perfect. With customizable packages, exquisite catering, and elegant decor, create unforgettable memories in our sophisticated and versatile event space. Book your celebration with us today!. Colombo overlooks the Indian Ocean in the heart of the business district with direct access to the most extensive international shopping mall in Sri Lanka, Shangri-La’s own One Galle Face Mall. 
+          </p>
+      </div>
+      <!-- <div class="col-md-6">
+        <img src="/assest/image/lobby-6725112_1280.jpg" alt="" class="img-fluid">
+      </div> -->
+  </div>
+
+    <!---------------------- card create ------------------->
+  <div class="card-group">
+    <div class="card" id="first-image">
+      <img src="/assest/image/wedding/rayyu-maldives-lUevqgm9rec-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">INDOOR WEDDING</h5>
+        <p class="card-text">Indoor weddings are often held in hotels or other venues with large ballrooms and high ceilings. These spaces can feel very elegant and romantic. The Weather Is Not a Concern: If you have an indoor wedding, the weather will not be a concern.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Traditional/Modern</small>
+      </div>
+    </div>
+    <div class="card" id="second-image">
+      <img src="/assest/image/wedding/rayyu-maldives-lUevqgm9rec-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">OUTDOOR WEDDING</h5>
+        <p class="card-text">Sri Lankan weddings are accompanied by traditional music and dance performances. The “Jayamangala Gatha” is a popular wedding song that is sung to bless the couple. Additionally, traditional dances like the “Kandyan dance” and “Low country dance” are performed to entertain the guests.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Beach/Vintage/Garden</small>
+      </div>
+    </div>
+    <div class="card" id="third-image">
+      <img src="/assest/image/wedding/rayyu-maldives-lUevqgm9rec-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HONEYMOON</h5>
+        <p class="card-text">As much as possible, avoid booking your hotel through travel sites or the hotel website. Call the hotel and tell the concierge on the phone what the occasion is and how excited you are to celebrate your recent nuptials at their property.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Cabana/Sea view/City view/Pool view</small>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------- table create ------------------->
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">VENUE</th>
+          <th scope="col">CLASS ROOM</th>
+          <th scope="col">U SHAPE</th>
+          <th scope="col">THEATRE STYLE</th>
+          <th scope="col">BOARDROOM STYLE</th>
+          <th scope="col">COCKTAIL STANDING</th>
+          <th scope="col">COCKTAIL SEATED</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">THE BALMORAL</th>
+          <td>300</td>
+          <td>400</td>
+          <td>100</td>
+          <td>850</td>
+          <td>-</td>
+          <td>750</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <th scope="row">THE VICTORIAN</th>
+          <td>80</td>
+          <td>80</td>
+          <td>45</td>
+          <td>200</td>
+          <td>50</td>
+          <td>250</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <th scope="row">THE WINCHESTER</th>
+          <td>80</td>
+          <td>100</td>
+          <td>60</td>
+          <td>200</td>
+          <td>50</td>
+          <td>250</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <th scope="row">DORCHESTER</th>
+          <td>30</td>
+          <td>32</td>
+          <td>20</td>
+          <td>40</td>
+          <td>25</td>
+          <td>30</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">KNIGHTSBRIDGE</th>
+          <td>-</td>
+          <td>-</td>
+          <td>20</td>
+          <td>-</td>
+          <td>25</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">THE OVAL</th>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>400</td>
+          <td>-</td>
+          <td>600</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <th scope="row">POOLSIDE</th>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>200</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<!------------------------- Footer --------------------------->
+<footer class="footer-area section-gap">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+        <h4>Top Products</h4>
+        <ul>
+          <li><a href="#">Managed Website</a></li>
+          <li><a href="#">Manage Reputation</a></li>
+          <li><a href="#">Power Tools</a></li>
+          <li><a href="#">Marketing Service</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+        <h4>Features</h4>
+        <ul>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Brand Assets</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Experts</a></li>
+          <li><a href="#">Agencies</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-md-8 mb-4 mb-xl-0 single-footer-widget">
+        <h4>Newsletter</h4>
+        <p>You can trust us. we only send promo offers,</p>
+        <div class="form-wrap" id="mc_embed_signup">
+          <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+           method="get" class="form-inline">
+            <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+             required="" type="email">
+            <button class="click-btn btn btn-default text-uppercase">subscribe</button>
+            <div style="position: absolute; left: -5000px;">
+              <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+            </div>
+
+            <div class="info"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom row align-items-center text-center text-lg-left">
+      <p class="footer-text m-0 col-lg-8 col-md-12">&copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a></p>
+      <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.aboutMy {
+    padding: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #about {
+    font-size: 35px; 
+    color: orangered; 
+    text-align: center;
+  }
+
+.table-responsive {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.card-group {
+  margin-left: 300px;
+  margin-right: 300px;
+}
