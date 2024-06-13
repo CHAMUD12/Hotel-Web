@@ -56,7 +56,7 @@
  /* ----------------- Booking bar ---------------- */
   .form-search {
     max-width: 972px;
-    background: #fff;
+    background: #8277c9;
     margin-right: auto;
     margin-left: auto;
     padding: 20px 15px 5px 15px;
@@ -72,12 +72,12 @@
       border-radius: 0;
       height: 50px;
       padding-left: 18px;
-      border-color: #ECECEC; }
+      border-color: #7071ce; }
       .form-search .form-control:focus {
         outline: 0;
         box-shadow: none; }
       .form-search .form-control::placeholder {
-        color: #999999; }
+        color: #7b7585; }
     .form-search .form-group {
       margin-bottom: 20px; }
       .form-search .form-group .nice-select {
@@ -88,7 +88,7 @@
       font-family: "Playfair Display", serif;
       font-weight: 700;
       border: 0;
-      background: #cca772;
+      background: #b6ade9;
       height: 50px;
       text-transform: uppercase; }
   
@@ -98,12 +98,12 @@
       width: 100%;
       height: 50px;
       border: 0;
-      border: 1px solid #ECECEC;
-      background: #fff url("../img/home/down-arrow.png") no-repeat;
+      border: 1px solid #b2aedd;
+      background: #e2e1eb url("../img/home/down-arrow.png") no-repeat;
       background-size: 11px;
       background-position: right 15px center;
       padding-left: 18px;
-      color: #999999;
+      color: #6b6060;
       font-size: 14px;
        }
       .form-select-custom select:focus {
@@ -111,7 +111,7 @@
         box-shadow: none; }
   
   .button-form:hover {
-          background: white;
+          background: rgb(179, 119, 119);
           border: 1px solid #cca772;
           color: #cca772;
         }
